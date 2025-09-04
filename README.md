@@ -42,6 +42,11 @@ Retaining customers is more cost-effective than acquiring new ones, yet companie
 5. Feature reduction: Removed highly correlated and redundant variables (from 44 → 31).
 
 ### Descriptive Insights:
+<img width="291" height="193" alt="image" src="https://github.com/user-attachments/assets/3b64bc57-34aa-42a2-87e4-c126f16a9020" />
+<img width="288" height="191" alt="image" src="https://github.com/user-attachments/assets/998a780e-5036-4500-80f4-f365f9b83e95" />
+<img width="292" height="193" alt="image" src="https://github.com/user-attachments/assets/6260ffb1-5d00-4f9c-b7da-3de8f7449617" />
+<img width="292" height="193" alt="image" src="https://github.com/user-attachments/assets/81756365-5942-4202-a3bb-4e518dbc5b8d" />
+
 - Churn rate ≈ 40%
 - Most churners leave between 10–12 months of service.
 - Mid-credit score customers are more stable; low & high scores churn more.
@@ -73,12 +78,16 @@ XGBoost (Boruta) — Best F1 score (0.481), strong recall (0.687), moderate prec
 ---
 
 ## Decision Optimisation
+<img width="308" height="204" alt="image" src="https://github.com/user-attachments/assets/b2c3f302-fd43-4a90-8e3f-679c657e93eb" />
+
 - Goal: Select churn probability threshold to maximise expected profit.
 - Two scenarios:
   1. Unconstrained targeting (target all above threshold)
   2. Capped targeting (max 3,000 customers)
 
 **Optimal Threshold:** 0.355  
+<img width="301" height="199" alt="image" src="https://github.com/user-attachments/assets/a7d5b14d-3c65-4032-bbec-6e7de4e3cfd0" />
+
 - Customers targeted: 2,828  
 - Expected annual profit: $753K  
 - Profit drops if threshold is lower/higher.
@@ -86,11 +95,14 @@ XGBoost (Boruta) — Best F1 score (0.481), strong recall (0.687), moderate prec
 ---
 
 ## Stochastic Risk Analysis
+<img width="253" height="167" alt="image" src="https://github.com/user-attachments/assets/9c83757f-c8e5-4c5e-a477-a18aecb15ece" />
+
 - Method: Monte Carlo Simulation (5,000 runs)
 - Assumptions:
   - Contacted → churn risk ↓ 90%
   - Contacted & retained → +10% profit
   - Not contacted & retained → +15% profit
+<img width="272" height="180" alt="image" src="https://github.com/user-attachments/assets/d4f6b63b-efd9-4bf2-a62c-61ae2a010b08" />
 
 | Metric | Value |
 |--------|-------|
