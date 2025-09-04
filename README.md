@@ -78,7 +78,7 @@ XGBoost (Boruta) — Best F1 score (0.481), strong recall (0.687), moderate prec
 ---
 
 ## Decision Optimisation
-<img width="308" height="204" alt="image" src="https://github.com/user-attachments/assets/b2c3f302-fd43-4a90-8e3f-679c657e93eb" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/b2c3f302-fd43-4a90-8e3f-679c657e93eb" />
 
 - Goal: Select churn probability threshold to maximise expected profit.
 - Two scenarios:
