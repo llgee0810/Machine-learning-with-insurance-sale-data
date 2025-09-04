@@ -124,5 +124,3 @@ If the full dataset is too large or confidential, provide a small sample and a â
 - Backtest assumptions; markets and adviser behaviour can shift.
 
 ---
-
-## Repo Structure (suggested)
